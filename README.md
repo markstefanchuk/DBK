@@ -34,4 +34,4 @@ For a standard MicroStation install, that is C:\Program Files (x86)\Bentley\Micr
 
 From this location you can run, bmake -a (path to app)\dbk.mke
 
-For me, bmake -a Z:\Documents\Github\CADGURUS\ps_reset\dbk.mke
+For me, bmake -a Z:\Documents\Github\CADGURUS\dbk\dbk.mke
