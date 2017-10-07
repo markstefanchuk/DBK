@@ -22,3 +22,16 @@ There are no prompts – just ID the first point and then the second point. The 
 <li>DBK.MKE – make file used with the MicroStation development shell</li>
 <li>Fdf.fdf – listing of include files (lazy way to incorporate include statements). This is NOT and Adobe file.</li>
 </ul>
+
+## Compiling The MDL
+Use bmake to compile via the MicroStation command window (delivered with the SDK).
+
+Before you do the following, open dbk.mke and change the path for baseDir to point to your MDL programs folder.
+
+Open the command window and cd to MircoStation\mdl\bin\
+
+For a standard MicroStation install, that is C:\Program Files (x86)\Bentley\MicroStation V8i (Selectseries)\MicroStation\mdl\bin\
+
+From this location you can run, bmake -a (path to app)\dbk.mke
+
+For me, bmake -a Z:\Documents\Github\CADGURUS\ps_reset\dbk.mke
